@@ -1,0 +1,38 @@
+
+.storyNav {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+  background-color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.storyNav::-webkit-scrollbar {
+  display: none; 
+}
+
+.storyNav__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+
+.storyNav__item > span {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.storyNav__item > .MuiAvatar-root {
+  border: 3px solid #ff006ff2; 
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.storyNav__item > .MuiAvatar-root:hover {
+  border-color: #ff4500; 
+}

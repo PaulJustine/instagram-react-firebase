@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.main{
+    position: fixed;
+    height: auto;
+    width: 20vw;   
+    background-color: black;
+}
+.user{
+    /* border: 1px solid white; */
+    /* position:fixed; */
+    /* top: 0; */
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* gap: 10%; */
+    height:auto;
+    padding: 4%;
+}
+.user .img img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.user .img img:hover{
+    cursor: pointer;
+}
+.user .username a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.user .username a:hover{
+    cursor: pointer;
+}
+.user .username p{
+    color: rgba(255, 255, 255, 0.648);
+    font-size: 12px;
+}
+.user .username p:hover{
+    cursor: pointer;
+}
+.user .btn{
+    padding: 8%;
+}
+.user .btn button{
+    border: none;
+    background-color: transparent;
+    color: blue;
+    
+}
+.user .btn button:hover{
+    color: white;
+    cursor: pointer;
+}
+.second{
+    height: 5vh;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.second h6{
+    color: rgba(255, 255, 255, 0.518);
+    display:inline-block;
+    font-size: 14px;
+    font-weight: 550;
+    padding-left: 3%;
+    padding-top: 4%;
+}
+.second button{
+    color: white;
+    border: none;
+    background-color:transparent;
+    font-size: 12px;
+    font-weight: 550;
+}
+.second button:hover{
+    color: gray;
+    cursor: pointer;
+}
+.main .third{
+    /* border: 1px solid white; */
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+.main .third .one{
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 4%;
+}
+.main .third .one img:hover{
+    cursor: pointer;
+}
+.third .one .username a:hover{
+    cursor: pointer;
+}
+.third .one .btn button{
+    background-color: transparent;
+    color: blue;
+    border: none;
+    padding-left: 14%;
+}
+.third .one .btn button:hover{
+    cursor: pointer;
+    color: white;       
+}
